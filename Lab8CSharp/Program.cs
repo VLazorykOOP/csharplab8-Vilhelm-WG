@@ -1,4 +1,5 @@
-﻿using HexIpProcessor;
+﻿using BinaryFibonacci;
+using HexIpProcessor;
 using SymmetricWordsFinder;
 
 namespace ConsoleApp2;
@@ -24,6 +25,10 @@ internal class Program
 
             switch (choice)
             {
+                case "4":
+                    task_4.Run();
+                    break;
+                
                 case "3":
                     task_3.Run();
                     break;
