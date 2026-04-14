@@ -31,7 +31,7 @@ class task_2
             // 4. Записуємо результат у новий файл
             File.WriteAllText(outputPath, filteredText);
 
-            Console.WriteLine("Очищення завершено. Результат збережено у result.txt");
+            Console.WriteLine($"Очищення завершено. Результат збережено у {outputPath}");
         }
         catch (Exception ex)
         {
