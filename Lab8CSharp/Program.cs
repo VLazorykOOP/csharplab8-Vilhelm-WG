@@ -1,4 +1,5 @@
 ﻿using BinaryFibonacci;
+using FileManipulation;
 using HexIpProcessor;
 using SymmetricWordsFinder;
 
@@ -25,6 +26,9 @@ internal class Program
 
             switch (choice)
             {
+                case "5":
+                    task_5.Run();
+                    break;
                 case "4":
                     task_4.Run();
                     break;
