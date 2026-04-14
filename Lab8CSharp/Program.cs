@@ -1,4 +1,5 @@
 ﻿using HexIpProcessor;
+using SymmetricWordsFinder;
 
 namespace ConsoleApp2;
 using System;
@@ -24,9 +25,11 @@ internal class Program
             switch (choice)
             {
                 case "3":
+                    task_3.Run();
                     break;
 
                 case "2":
+                    task_2.Run();
                     break;
 
                 case "1":
