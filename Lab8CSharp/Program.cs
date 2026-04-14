@@ -13,10 +13,12 @@ internal class Program
         while (true)
         {
             Console.WriteLine();
-            Console.WriteLine("Lab 4 - меню");
-            Console.WriteLine("3 - Task 3 (MatrixShort)");
-            Console.WriteLine("2 - Task 2 (VectorShort)");
-            Console.WriteLine("1 - Task 1 (Rectangle - базові операції + нові операції)");
+            Console.WriteLine("Lab 8 - меню");
+            Console.WriteLine("5 - Task 5 (FileCombiner)");
+            Console.WriteLine("4 - Task 4 (BinaryFibonacci)");
+            Console.WriteLine("3 - Task 3 (SymmetricWordsFinder)");
+            Console.WriteLine("2 - Task 2 (WordFilter)");
+            Console.WriteLine("1 - Task 1 (HexIpProcessor)");
             Console.WriteLine("0 - Вихід");
             Console.Write("Ваш вибір: ");
 
