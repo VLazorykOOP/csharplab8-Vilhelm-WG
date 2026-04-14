@@ -24,8 +24,8 @@ namespace FileManipulation
 
                 // 2. Перевіряємо наявність вхідних файлів
                 // Створимо їх для прикладу, якщо вони відсутні
-                if (!File.Exists(t1Path)) File.WriteAllText(t1Path, "Контент із файлу t1.\n");
-                if (!File.Exists(t2Path)) File.WriteAllText(t2Path, "Контент із файлу t2.\n");
+                if (!File.Exists(t1Path)) File.WriteAllText(t1Path, $"Контент із файлу {t1Path}.\n");
+                if (!File.Exists(t2Path)) File.WriteAllText(t2Path, $"Контент із файлу {t2Path}.\n");
 
                 // 3. Зчитуємо дані з обох файлів
                 string content1 = File.ReadAllText(t1Path);
